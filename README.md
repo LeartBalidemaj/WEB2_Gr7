@@ -1,4 +1,3 @@
-# UEB24_Gr11
-Genti Production - website per fotografi dhe videografi
+# Projekti Genti Production
 
-website i krijuaar si projekt ne Programim ne UEB 1
+Ky është projekti im për lëndën WEB2.
