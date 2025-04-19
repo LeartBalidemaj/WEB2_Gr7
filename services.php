@@ -328,16 +328,17 @@
     </div>
 
     <script>
-      // Verifikim me regex ne inputin e kerkimit
       $("form").submit(function (e) {
         const searchText = $("input[type='search']").val();
-        const pattern = /^[a-zA-Z0-9\s]+$/;
-
-        if (!pattern.test(searchText)) {
+        // Nese nuk ka kerkim, lejo dergimin e formularit
+        if (searchText === "" || /^[a-zA-Z0-9\s]+$/.test(searchText)) {
+          return true;
+        } else {
           alert("Search input përmban karaktere të palejuara!");
           e.preventDefault();
         }
       });
+
     </script>
 
 
